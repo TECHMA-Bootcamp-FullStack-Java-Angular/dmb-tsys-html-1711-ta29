@@ -1,0 +1,135 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-content: space-around;
+  font-size: smaller;
+}
+
+/* DIV ANTERIOR */
+.anterior{
+  height: 70px;
+  width: 150px;
+  border: 2px solid blue;
+  background-color: rgb(167, 218, 235);
+  display: flex;
+  flex-direction: column;
+  background-size: auto;
+  position: relative; 
+  margin-bottom: 5%;
+
+  & .nubes-anterior{
+    background-image: url(../img/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: contain;
+    z-index: 0; 
+  }
+
+  & .suelo-anterior{
+    background-image: url(./img/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+    margin-top: -10px; 
+  }
+  & .mario-anterior{
+    background-image: url(./img/f02.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: contain;
+    position: relative; 
+    z-index: 1;
+    margin-top: -20px; 
+    margin-bottom: -20px; 
+  }
+
+}
+
+/* DIV PRUEBA */
+.prueba{
+  border: 2px solid red;
+  width: 300px;
+  height: 200px;
+  background-color: rgb(167, 218, 235); 
+  margin-bottom: 5%;
+  margin-left: 5%;
+
+  & .suelo-prueba{
+    background-image: url(./img/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+    margin-top: 0px; 
+    margin-bottom: -10px;
+  }
+  & .mario-prueba{
+    background-image: url(./img/f02.png);
+    background-repeat: no-repeat;
+    height: 80px; 
+    background-size: contain; 
+    margin-bottom: -10px;
+  }
+  & .nubes-prueba{
+    background-image: url(./img/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+    position: relative;
+    background-size:60%; 
+  
+  }
+ 
+
+}
+/* DIV POSTERIOS */
+.posterior{
+  height: 70px;
+  width: 150px;
+  border: 2px solid blue;
+  background-color: rgb(167, 218, 235);
+  display: flex;
+  flex-direction: column;
+  background-size: auto;
+  position: relative; 
+  margin-bottom: 5%;
+
+  &.nubes-posterior {
+    background-image: url(./img/f03.png);
+    background-repeat: repeat-x;
+    background-position: top;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-size: contain;
+    z-index: 0; 
+  }
+  
+  & .suelo-posterior{
+    background-image: url(./img/f01.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    height: 10px;
+    margin-top: -10px; 
+  }
+  & .mario-posterior{
+    background-image: url(./img/f02.png);
+    background-repeat: no-repeat;
+    height: 100px;
+    background-size: contain;
+    position: relative; 
+    z-index: 1; 
+    margin-top: -20px; 
+    margin-bottom: -20px;
+  }
+
+}
+
+
+

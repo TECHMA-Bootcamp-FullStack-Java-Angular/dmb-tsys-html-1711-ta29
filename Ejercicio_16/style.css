@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+table{
+  width: 710px;
+  background-image: url("./img/fondo.png");
+}
+
+table,
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  background-repeat: repeat;
+  background-position: center;
+  background-size: contain;
+  color: rgb(121, 1, 1);
+}
+
+.color1{
+  background-color: #669966;
+}
+.color2{
+  background-color:  #FFCC99;
+}
+.color3{
+  background-color:  #FFFF99;
+}

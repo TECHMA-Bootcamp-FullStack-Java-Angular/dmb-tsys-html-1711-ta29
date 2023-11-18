@@ -1,0 +1,32 @@
+table,
+th,
+td {
+  border: 1px solid black;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+th {
+  background-color: #2e2e2e;
+  color: #ccffcc;
+}
+
+
+td {
+  background-color: #ccffcc;
+}
+
+
+tr:nth-child(3n+1) td {
+  background-color: #99cc99;
+}
+
+
+table {
+  background-color: #96d4d4;
+}
+
+
+.col-actividad {
+  padding: 5px 100px 5px 5px;
+}

@@ -1,0 +1,32 @@
+table,
+th,
+td {
+
+  border: 1px solid black;
+  font-weight: bold;
+}
+
+table {
+  margin-left: 2%;
+  width: 95%;
+}
+
+
+#td-uno {
+  background-color: rgb(127, 255, 165);
+}
+
+#td-dos {
+  background-color: aqua;
+}
+
+#td-seis {
+  background-color: rgba(231, 98, 227, 0.623);
+}
+
+.red {
+  color: red;
+}
+.center{
+  text-align: center;
+}
